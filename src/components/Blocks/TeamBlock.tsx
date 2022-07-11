@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TeamBlock = () => {
+const TeamBlock: React.FC = () => {
   return <div>TeamBlock</div>;
 };
 
