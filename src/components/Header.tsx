@@ -11,13 +11,18 @@ const Header: React.FC = () => {
           <Link to="/">
             <div className="header__logo">
               <img width="38" src={logo} alt="🐘" />
+
               <div>
                 <h1>Irrelephant Studios</h1>
                 <p>Norway</p>
               </div>
             </div>
           </Link>
-          <div className="header__right"></div>
+          <div className="header__right">
+            <Link to="/">Projects</Link>
+
+            <Link to="/">Team</Link>
+          </div>
         </div>
       </div>
     </div>
