@@ -1,0 +1,33 @@
+#team-members {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 20px;
+
+  .member-listing {
+    margin-top: 20px;
+  }
+
+  .table-list-item {
+    display: flex;
+    align-items: center;
+    transition: 1s all;
+
+    &:hover {
+      background-color: $gray-line;
+      cursor: pointer;
+    }
+
+    div:last-child {
+      margin-left: 20px;
+    }
+
+    .name {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .alias {
+      color: #8b949e;
+    }
+  }
+}
