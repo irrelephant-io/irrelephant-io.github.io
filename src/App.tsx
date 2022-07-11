@@ -1,11 +1,14 @@
-import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
 
 import './scss/app.scss';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hllo</h1>
+    <div>
+      <Routes>
+        <Route path="/" element={<Header />} />
+      </Routes>
     </div>
   );
 }
