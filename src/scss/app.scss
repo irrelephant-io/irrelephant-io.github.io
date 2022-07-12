@@ -24,6 +24,10 @@ body {
 .container {
   width: $container-width;
   margin: 0 auto;
+
+  .main_img {
+    width: 100%;
+  }
 }
 
 .content {
