@@ -63,7 +63,9 @@ const Projects: React.FC = () => {
               <p className="description">{description}</p>
               <ul className="authors">
                 {team.map(e => (
-                  <li>{e}</li>
+                  <li>
+                    <p>{e}</p>
+                  </li>
                 ))}
               </ul>
             </div>
