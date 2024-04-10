@@ -1,0 +1,20 @@
+.container__not-found {
+    display: flex;
+    justify-content: center;
+
+    .status {
+        margin-right: 30px;
+    }
+
+    .content__not-found {
+        flex-direction: row;
+        display: flex;
+
+        .poem {
+            font-style: italic;
+            font-weight: 100;
+            font-size: smaller;
+        }
+    }
+}
+

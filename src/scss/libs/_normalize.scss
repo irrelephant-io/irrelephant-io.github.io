@@ -3,7 +3,8 @@
   margin: 0;
   list-style: none;
   outline: none;
-  font-family: 'Nunito', Roboto, system-ui, Tahoma, sans-serif;
+  font-family: 'Poppins', sans-serif, system-ui;
+  font-weight: 400;
   box-sizing: border-box;
 }
 
@@ -15,7 +16,7 @@ html {
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  color: $black;
+  color: $background;
 }
 
 // light
@@ -29,7 +30,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: $black;
+  color: $background;
 }
 
 // dark
