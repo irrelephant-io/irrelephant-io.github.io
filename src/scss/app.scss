@@ -21,6 +21,10 @@ body {
   }
 }
 
+a {
+  color: $secondary;
+}
+
 .container {
   width: $container-width;
   margin: 0 auto;
