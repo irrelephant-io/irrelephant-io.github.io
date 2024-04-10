@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0750ac3.css",
-    "main.js": "/static/js/main.11587e3f.js",
+    "main.css": "/static/css/main.aba49cb7.css",
+    "main.js": "/static/js/main.84df0234.js",
     "static/media/light_logo.svg": "/static/media/light_logo.ded0cd8ffad427a96c66df3576f8370a.svg",
     "index.html": "/index.html",
-    "main.a0750ac3.css.map": "/static/css/main.a0750ac3.css.map",
-    "main.11587e3f.js.map": "/static/js/main.11587e3f.js.map"
+    "main.aba49cb7.css.map": "/static/css/main.aba49cb7.css.map",
+    "main.84df0234.js.map": "/static/js/main.84df0234.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0750ac3.css",
-    "static/js/main.11587e3f.js"
+    "static/css/main.aba49cb7.css",
+    "static/js/main.84df0234.js"
   ]
 }
