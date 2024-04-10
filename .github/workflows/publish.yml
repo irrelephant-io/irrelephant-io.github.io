@@ -21,6 +21,9 @@ jobs:
           yarn install --frozen-lockfile
           yarn build
 
+      - name: Point 404 as index 🔧
+        run: cp build/index.html build/404.html
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
