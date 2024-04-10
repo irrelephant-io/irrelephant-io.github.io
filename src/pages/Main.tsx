@@ -3,11 +3,20 @@ import React from 'react';
 const Main: React.FC = () => {
   return (
     <div className="container">
-      <img
-        className="main_img"
-        src="https://www.elephantvoices.org/images/ethogram/screenshot-mating-920w.jpg"
-        alt="Irrelephant.io"
-      />
+      <h2>
+        Well... Thats a dogshit website.
+      </h2>
+      <br/>
+      <p className="s">
+        I tried coming up with text to put here, but failed.
+        Trust me, whatever was here before is much worse,
+        so this boring bit of text is, honestly, not that bad
+        in comparison.
+        <br/>
+        <br/>
+        <br/>
+        Why don't you try and click other links?
+      </p>
     </div>
   );
 };

@@ -10,12 +10,7 @@ const team = [
     name: 'Egor',
     alias: 'ZnoGouDj',
     avatar: 'https://avatars.githubusercontent.com/u/52937798?s=88&amp;v=4',
-  },
-  {
-    name: 'Gxthh3ll',
-    alias: '',
-    avatar: 'https://avatars.githubusercontent.com/u/109045476?s=88&amp;v=44',
-  },
+  }
 ];
 
 const Team: React.FC = () => {

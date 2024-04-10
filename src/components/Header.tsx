@@ -13,13 +13,11 @@ const Header: React.FC = () => {
 
             <div>
               <h1>Irrelephant Studios</h1>
-              <p>Norway</p>
             </div>
           </div>
         </Link>
         <div className="header__right">
-          <Link to="/projects">Projects</Link>
-
+          <Link to="/essentia">Essentia</Link>
           <Link to="/team">Team</Link>
         </div>
       </div>
